@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <script
+      src="https://kit.fontawesome.com/fb473d95c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <img src="logo.JPG" />
+      <h3>Web Technology</h3>
+      <div id="timer">
+        <h3>
+          <i class="fa-solid fa-clock"></i><span>00</span>:<span>00</span>:<span
+            >00</span
+          >
+        </h3>
+      </div>
+    </nav>
+    <main>
+      <div>
+        <div id="logo">
+          <img src="p1.JPG" />
+          <h3>Problem Statement</h3>
+        </div>
+
+        <h2>Question</h2>
+        <div id="actualCont"></div>
+      </div>
+      <div>
+        <div id="logo">
+          <i class="fa-solid fa-code"></i>
+          <h3>Options</h3>
+        </div>
+
+        <div id="actualOption"></div>
+      </div>
+      <div id="section3">
+        <div id="actualButton"></div>
+        <div id="section3II">
+          <hr />
+
+          <h3 id="label">Legends</h3>
+
+          <div id="option">
+            <h3><span>00</span>:Answered</h3>
+            <h3><span>00</span>:Not Answered</h3>
+            <h3><span>00</span>:Marked</h3>
+            <h3><span>00</span>:Not Visited</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <button>Previous</button><button>Revisit&Next</button
+        ><button id="white">Save&Next</button>
+      </div>
+
+      <div id="submit">
+        <button id="white">Submit Quiz</button>
+      </div>
+    </footer>
+    <script src="quiz.js"></script>
+  </body>
+</html>
